@@ -1,0 +1,35 @@
+{
+  "name": "floor-spike-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "nodemon ./src/server.js",
+    "test": "APP_ENV=test mocha test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fastest-validator": "^1.12.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0",
+    "multicoin-address-validator": "^0.5.10",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
